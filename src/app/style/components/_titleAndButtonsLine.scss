@@ -1,0 +1,10 @@
+.titleAndButtonsLine {
+  margin-left: 2%;
+  display: flex;
+  gap: 1rem;
+  margin-top: 7rem;
+  
+  &__rightPart {
+    margin-left: 12rem;
+  }
+}

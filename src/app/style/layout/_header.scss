@@ -1,0 +1,19 @@
+.employerHeader {
+  display: flex;
+  justify-content: space-around;
+  height: 5rem;
+  box-shadow: 0px 0.5rem 1rem 0px rgba(0, 0, 0, 0.4);
+  width: 100%;
+}
+.employerHeader__leftGroup {
+  display: flex;
+}
+.employerHeader__rightGroup {
+  display: flex;
+}
+.employerHeader__notificationIcons {
+  display: flex;
+}
+
+
+

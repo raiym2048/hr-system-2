@@ -1,0 +1,95 @@
+.text {
+  white-space: pre-line;
+  font-family: var(--font-family-main);
+  font-size: 1.6rem;
+  line-height: 2.3rem;
+  vertical-align: middle;
+
+  &--bold {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
+
+  &--hyperlinkSafe {
+    color: hsla(208, 100%, 50%, 1);
+    cursor: pointer;
+  }
+
+  &--hyperlinkDanger {
+    color: rgb(229, 0, 0);
+    cursor: pointer;
+
+    &:hover + div:before {
+      position: absolute;
+      content: '';
+      width: 102%;
+      height: 100%;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      background-color: rgb(229, 0, 0, 0.03);
+    }
+  }
+
+  &--gray {
+    color: hsla(0, 0%, 67%, 1);
+  }
+}
+
+.mainTitle {
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 3.873rem;
+}
+.asterisk {
+  color: #F03737;
+  margin-left: 0.2rem;
+}
+
+.subtitle {
+  font-size: 2rem;
+  line-height: 2.42rem;
+  font-weight: 600;
+}
+
+.specialText {
+  color: hsla(208, 100%, 50%, 1);
+  font-weight: 500;
+}
+
+.dateText {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.694rem;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.errorMessage {
+  color: rgb(229, 0, 0);
+}
+
+.categoryNameText {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #C2C2C2;
+}
+.categoryValueText {
+  font-size: 1.8rem;
+  font-weight: 400;    
+}
+.lighterText {
+  color:rgb(101, 183, 255);
+  font-size: 2.3rem;
+  vertical-align: middle;
+}
+.bigText {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: Inter;
+}
+
+.bodyOfText {
+  font-family: Inter;
+}

@@ -1,0 +1,46 @@
+.CategoryTable {
+  display: flex;
+  align-items: start;
+  border: 1px solid rgba(231, 231, 231, 1);
+  padding: 15px;
+  background: rgba(249, 249, 249, 0.8);
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.company {
+  width: 20%;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+.title {
+  font-size: 14px;
+  color: rgba(194, 194, 194, 1);
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.text {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  font-weight: 400;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: 30px
+}
+
+.location img {
+  margin-right: 10px;
+}
+
+.location span {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(194, 194, 194, 1);
+}
+

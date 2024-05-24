@@ -1,0 +1,90 @@
+.form {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  width: 65rem;
+  max-width: 95%;
+  margin-left: 2%;
+  margin-bottom: 10%;
+
+  &__subtitle {
+    margin-bottom: 0.5rem;
+  }
+
+  &__sectionStart {
+    margin-top: 4rem;
+
+    &--radio {
+      display: flex;
+      flex-direction: column;
+      row-gap: 2.5rem;
+    }
+
+    &--higher {
+      margin-top: 2rem;
+    }
+  }
+
+  &__checkbox {
+    margin-top: 2.5rem; 
+    margin-bottom: 2.2rem;
+    margin-left: auto;
+    width: fit-content;
+  }
+
+  &__singleInput {
+    margin-top: 2rem;
+  }
+
+  &__grid {
+    display: grid;
+    column-gap: 2rem;
+
+    &--bigBigSmall {
+      grid-template-columns: 1.7fr 1fr 1fr;
+    }
+
+    &--twoEquals {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    &--six {
+      grid-template-columns: 1fr 5fr 4fr 3fr 5fr 4fr;
+      column-gap: 1rem;
+      place-items: center;
+    }
+  }
+
+  &__right {
+    align-self: end;
+    float: right;
+  }
+
+  &__elementLower {
+    margin-top: 2rem;
+  }
+
+  &__errorMessage {
+    margin-left: 0.3rem;
+    margin-top: 0.5rem;
+  }
+
+  &__submitButtons {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+
+    &--higher {
+      margin-top: 4rem;
+    }
+  }
+
+  &__tabs {
+    margin-top: 2.8rem;
+  }
+
+  &__elementLower {
+    margin-top: 2rem;
+  }
+}

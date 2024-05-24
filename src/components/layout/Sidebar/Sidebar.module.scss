@@ -1,0 +1,24 @@
+.Sidebar{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  box-shadow: 5px 0px 5px #787878 ;
+  padding-top: 50px;
+}
+.bg_text{
+  color: black;
+}
+.active{
+  color: #007bff;
+  font-weight: 600;
+}
+.link_item{
+  display: flex;
+  flex-direction: column;
+}
+.link{
+  margin-top: 10px;
+  list-style: none;
+  color: black;
+}

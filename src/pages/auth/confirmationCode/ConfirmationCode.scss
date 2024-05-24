@@ -1,0 +1,41 @@
+.codeConfirmation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: var(--height);
+  gap: 50px;
+  background: var(--bg-color);
+  .codeText {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 43rem;
+    b{
+      margin-left: 10px;
+    }
+  }
+  .inputCode {
+    .code {
+      display: flex;
+      gap: 20px;
+    }
+    .inputCode {
+      font-size: 55px;
+      border: 2px solid black;
+      height: 60px;
+      border-radius: 6px;
+    }
+  }
+  .codeBtn{
+    width: 330px;
+    border: 1px solid rgba(0, 0, 65, 1);
+    font-family: 'inter';
+    cursor: pointer;
+    transition: 400ms;
+    &:hover{
+      background: #4a6dff;
+      color: white;
+    }
+  }
+}

@@ -1,0 +1,46 @@
+.popupAccept {
+  .popupAcceptFon {
+    background: rgba($color: #7e7979, $alpha: 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 13;
+    top: 0;
+  }
+  .popupAcceptContent {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    gap: 50px;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 40rem;
+    height: 20rem;
+    z-index: 15;
+    .btnAccept {
+      z-index: 16;
+      width: 100px;
+      height: 40px;
+      border: 2px solid green;
+      color: green;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "inter";
+    }
+    .btnReject {
+      z-index: 16;
+      width: 100px;
+      height: 40px;
+      border: 2px solid red;
+      color: red;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "inter";
+    }
+  }
+}

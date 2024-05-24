@@ -1,0 +1,26 @@
+.flexReordered {
+  display: flex;
+
+  &--column {
+    flex-direction: column;
+  }
+
+  &__toStart {
+    order: 1;
+    position: relative;
+  }
+
+  &__toEnd {
+    order: 2;
+  }
+}
+
+.flexHorizontal {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  &--spreadWider {
+    gap: 3rem;
+  }
+}

@@ -1,0 +1,9 @@
+.AppLink{
+  .primary {
+    color: black;
+
+    &:hover {
+      color: blue;
+    }
+  }
+}

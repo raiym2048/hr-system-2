@@ -1,0 +1,26 @@
+.MainIcon{
+  width: 146px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.square{
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  &:first-child{
+    background: rgba(46, 185, 255, 1);
+    transform: rotate(38deg)
+  }
+  &:nth-of-type(2){
+    background: rgba(74, 109, 255, 1);
+    transform: rotate(38deg);
+    position: relative;
+    right: 13px;
+    z-index: 0;
+  }
+
+
+}
+

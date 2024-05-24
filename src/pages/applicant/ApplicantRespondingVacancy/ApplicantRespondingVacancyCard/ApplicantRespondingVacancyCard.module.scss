@@ -1,0 +1,65 @@
+.ApplicantRespondingVacancyCard{
+  padding: 10px 0px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(249, 249, 249, 0.8);
+  border: 1px solid  rgba(231, 231, 231, 1);
+  border-radius: 20px;
+}
+.responding_items{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &__child{
+    width: 18%;
+    text-align: left;
+    :first-child{
+      margin-bottom: 15px;
+      justify-items: center;
+      color: rgba(194, 194, 194, 1);
+      font-size:14px;
+      text-transform: uppercase;
+    }
+    :last-child{
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
+.gray__btn{
+  color: rgba(170, 170, 170, 1);
+ border: 1px solid rgba(170, 170, 170, 1);
+  background: rgba(170, 170, 170, 0.05);
+}
+.blue__btn{
+  color: rgba(0, 136, 255, 1);
+  border: 1px solid rgba(0, 136, 255, 1);
+  background: rgba(0, 136, 255, 0.05);
+}
+
+.yellow__btn{
+  color: rgba(249, 171, 0, 1);
+  border: 1px solid rgba(249, 171, 0, 1);
+  background: rgba(249, 171, 0, 0.05);
+}
+.yello_green__btn{
+  color: rgb(107, 173, 107);
+  border: 1px solid rgba(107, 173, 107, 1);
+  background: rgba(107, 173, 107, 0.05);
+}
+
+
+.green__btn{
+  color: rgba(14, 181, 141, 1);
+  border: 1px solid rgba(14, 181, 141, 1);
+  background: rgba(14, 181, 141, 0.05);
+}
+.red__btn{
+  color: rgba(240, 55, 55, 1);
+  border: 1px solid rgba(240, 55, 55, 1);
+  background: rgba(240, 55, 55, 0.05);
+}
+

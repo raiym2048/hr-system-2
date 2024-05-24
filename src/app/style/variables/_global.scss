@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root{
+  //шрифт
+  --font-family-main: 'Inter', sans-serif;
+
+  //размеры шрифты
+  --font-size-xx-small: 1.6rem;
+  --font-size-x-small: 1.8rem;
+  --font-size-medium: 3.2rem;
+  --font-size-large: 3.6rem;
+
+
+  // Размер навбара
+  --navbar-height: 6.2rem;
+
+  // Размер инпут и текст
+  --width-input: 100%;
+
+  // цвет для фона
+  --prymary-color: #E7E7E7;
+  --overlay-color: #F4F6FF;
+  --bg-color-for-task: #787878;
+  --font-color: #000000;
+  --text-color-white-btn: #ffffff;
+  --text-color-black-btn: #00000080;
+
+  // цвет для кнопка и шрифта
+  --bg-color-blue: #4A6DFF;
+  --bg-color-gray: #DDDDDD;
+  --bg-color: linear-gradient(
+    180deg,
+    rgba(168, 234, 240, 1) 0.0%,
+    rgb(227, 233, 255) 0%
+  );
+  --height: 91.3vh;
+}
+

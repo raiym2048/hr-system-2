@@ -1,0 +1,92 @@
+.EmployersVacanciesCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgba(231, 231, 231, 1);
+  background: rgba(249, 249, 249, 0.8);
+  border-radius: 20px;
+  padding: 20px 15px;
+  margin-bottom: 15px;
+}
+
+.three_outline {
+  width: 40px;
+  height: 40px;
+  background: rgba(74, 109, 255, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+
+  &__icon {
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+.response {
+  width: 80px;
+  &_btn {
+    padding: 2px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    color: rgba(46, 185, 255, 1);
+    background: rgba(46, 185, 255, 0.05);
+
+    &__icon {
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+    }
+  }
+}
+
+
+.modal {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 160px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(181, 183, 192, 0.4);
+  border-radius: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalOption {
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: start;
+  font-size: 14px;
+
+  &:nth-child(2) {
+    color: red;
+  }
+}
+
+.modalOption:last-child {
+  border-bottom: none;
+}
+
+.gray__btn {
+  color: rgba(170, 170, 170, 1);
+  border: 1px solid rgba(170, 170, 170, 1);
+  background: rgba(170, 170, 170, 0.05);
+}
+
+.green__btn {
+  color: rgba(14, 181, 141, 1);
+  border: 1px solid rgba(14, 181, 141, 1);
+  background: rgba(14, 181, 141, 0.05);
+}
+
+.red__btn {
+  color: rgba(240, 55, 55, 1);
+  border: 1px solid rgba(240, 55, 55, 1);
+  background: rgba(240, 55, 55, 0.05);
+}

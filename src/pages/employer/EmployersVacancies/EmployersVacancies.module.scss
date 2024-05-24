@@ -1,0 +1,36 @@
+.EmployersVacancies {
+}
+
+.employersVacanciesFilter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.vacancy_filter__box {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select_bg {
+  border: 1px solid rgba(231, 231, 231, 1);
+  background: rgba(239, 239, 239, 0.4);
+
+  select {
+    color: black;
+  }
+}
+.filter_btn_reset {
+  padding: 14px 20px;
+  border: 1px solid #4A6DFF;
+  color:#4A6DFF
+}
+.filter_btn {
+  padding: 15px 20px;
+  background: #4A6DFF;
+  color: white;
+}

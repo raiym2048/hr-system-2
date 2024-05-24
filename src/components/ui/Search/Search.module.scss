@@ -1,0 +1,17 @@
+.Search{
+  border: 1px solid rgba(231, 231, 231, 1);
+  border-radius: 10px;
+  padding: 14px;
+  display: flex;
+  align-items: center;
+  background: rgba(239, 239, 239, 0.4);
+  font-size: 16px;
+  span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  input{
+    background: none;
+  }
+}

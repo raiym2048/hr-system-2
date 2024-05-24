@@ -1,0 +1,56 @@
+@use "reset";
+@use "variables/global.scss";
+
+@use 'components/radioButtons';
+@use 'components/checkbox.scss';
+@use 'components/input.scss';
+@use 'components/brandGroup.scss';
+@use 'components/icons';
+@use 'components/text';
+@use 'components/form';
+@use 'components/details';
+@use 'components/buttons';
+@use 'components/arrow';
+@use 'components/pendingMessage';
+@use 'components/hidden';
+@use 'components/tabs';
+@use 'components/titleAndButtonsLine';
+
+@use 'layout/header';
+@use 'layout/navigationMenu';
+@use 'layout/flex';
+@use 'layout/error';
+@use 'layout/recommendedVacancy';
+@use 'layout/chat';
+@use 'layout/main';
+
+@use 'vendors/popup';
+@use "./../../pages/auth/loginPage/LoginPage.scss";
+@use "./../../pages/auth/registrationPage/RegistrationPage.scss";
+
+
+
+body {
+  font-size: 160%;
+}
+
+.app {
+  font-family: var(--font-family-main);
+  font-weight: 400;
+  font-size: var(--font-size-x-small);
+  color: var(--font-color);
+}
+
+:root {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 140rem;
+  margin: 0 5%;
+  max-width: 140rem;
+  width: 140rem;
+}
+
+

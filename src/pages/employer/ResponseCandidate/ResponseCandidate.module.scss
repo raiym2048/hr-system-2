@@ -1,0 +1,27 @@
+.ResponseCandidate{
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(249, 249, 249, 0.8);
+  border: 1px solid rgba(231, 231, 231, 1);
+  border-radius: 20px;
+}
+.ResponseCandidateFilter {
+  display: flex;
+  margin-bottom: 20px;
+}
+.name_position{
+  font-size: 16px;
+  color: #AAAAAA;
+  margin-bottom: 20px;
+}
+
+.select_bg{
+  background: #EFEFEF66;
+  margin-right: 40px;
+}
+.responseCandidateFilter_search{
+  margin-right: 40px;
+
+}

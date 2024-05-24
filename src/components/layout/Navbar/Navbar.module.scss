@@ -1,0 +1,224 @@
+.Navbar {
+  width: 100%;
+  height: var(--navbar-height);
+  display: flex;
+  align-items: center;
+  // position: fixed;
+  // z-index: 10;
+  background: var(--overlay-color);
+  box-shadow: 0px 0.2rem 0.6rem 0px rgba(0, 0, 0, 0.2);
+}
+
+.admin_navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  //padding: 20px 15px;
+}
+
+.mainLink {
+  display: flex;
+  align-items: center;
+  font-size: var(--font-size-xx-small);
+  font-weight: 500;
+  gap: 80px;
+}
+
+.links {
+  margin-right: 0px;
+  list-style: none;
+  cursor: pointer;
+}
+
+.links:last-child {
+  margin-right: 0px;
+}
+
+.btn_child:last-child {
+  margin-left: 30px;
+}
+
+.btn_child2 {
+  font-family: 'inter';
+  width: 200px;
+  height: 50px;
+  font-size: 40px;
+}
+
+.authNavbar {
+  display: flex;
+
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+
+  .navbarIcons {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 25px;
+    color: rgba(74, 109, 255, 1);
+
+    .chatNavbar {
+      position: relative;
+      cursor: pointer;
+
+      p {
+        position: absolute;
+        color: white;
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: red;
+        top: -12px;
+        left: 15px;
+        padding-left: 2px;
+      }
+    }
+
+    .notificationsNavbar {
+      position: relative;
+      font-size: 30px;
+      cursor: pointer;
+
+      p {
+        position: absolute;
+        color: white;
+        width: 20px;
+        height: 20px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+
+        border-radius: 50%;
+        background-color: red;
+        top: -9px;
+        left: 12px;
+      }
+    }
+  }
+
+  .notificationsContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .modalNotifications {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+    top: 7rem;
+    background: #FFFFFF;
+    padding: 10px;
+    box-shadow: 0px 1px 18px 0px #00000017;
+    overflow: auto;
+
+    .textNotifications {
+      h3 {
+        font-size: 14px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+    }
+
+    span {
+      color: black;
+    }
+  }
+
+  .navbarButton {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    .modal {
+      position: relative;
+
+      .modalNavbar {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        top: 5vh;
+        right: 4vh;
+        width: max-content;
+        padding: 10px;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: 10px;
+        box-shadow: 3px 3px 5px 5px rgba(0, 0, 0, 0.3);
+
+        li {
+          list-style: none;
+          cursor: pointer;
+          transition: 400ms;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+    }
+
+    .btn_child {
+      padding: 4px 10px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .btn_child1 {
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .navbarPlus {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbarAvatar {
+      width: 30px;
+      border-radius: 50%;
+      border: 1px solid rgb(255, 255, 255);
+      background-color: white;
+    }
+  }
+
+  .btnJob {
+    padding: 10px 20px;
+  }
+}
+
+.downNavbar {
+  display: flex;
+  align-items: center;
+}

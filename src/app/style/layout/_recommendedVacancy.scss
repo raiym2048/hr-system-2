@@ -1,0 +1,47 @@
+.recommended {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 3rem;
+  cursor: pointer;
+
+  &__title {
+    margin-top: 8rem;
+  }
+
+  &__item {
+    background-color: hsla(0, 0%, 98%, 0.8);
+    border: 1px solid hsla(0, 0%, 91%, 1);
+    min-width: 60rem;
+    min-height: 13rem;
+    border-radius: 0.5rem;
+    padding: 2rem 3rem;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-areas: 
+    "position position position"
+    "salary type location";
+  }
+
+  &__position {
+    grid-area: position;
+  }
+
+  &__salary {
+    grid-area: salary;
+  }
+
+  &__type {
+    grid-area: type;
+  }
+
+  &__location {
+    grid-area: location;
+  }
+
+  &__doubleLine {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}

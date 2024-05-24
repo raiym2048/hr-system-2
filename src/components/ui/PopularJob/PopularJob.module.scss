@@ -1,0 +1,33 @@
+.PopularJob{
+  width: 100%;
+  display:flex;
+  justify-content: start;
+  margin-top: 10px;
+}
+
+.output_job{
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.size_Btn{
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.text{
+  white-space: nowrap;
+  text-align: start;
+  font-size: 16px;
+  margin: 18px 10px 0 0;
+}
+.avatar{
+  margin-right: 15px;
+}
+
+

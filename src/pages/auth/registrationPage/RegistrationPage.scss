@@ -1,0 +1,150 @@
+.registrationPage {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: var(--height);
+  background: var(--bg-color);
+  justify-content: center;
+  align-items: center;
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  .btnJob {
+    background-color: rgba(74, 109, 255, 1);
+    font-family: "inter";
+    color: white;
+  }
+  .btnEmp {
+    background-color: white;
+    color: black;
+    font-family: "inter";
+  }
+  .registrationRole {
+    display: flex;
+    flex-direction: column;
+
+    width: 390px;
+    font-weight: 600;
+    color: #000000;
+    gap: 5px;
+    h2 {
+      font-size: 22px;
+    }
+    span {
+      font-size: 12px;
+    }
+  }
+
+  .registrationRoleButton {
+    display: flex;
+    gap: 10px;
+    .bag {
+      background-color: #4a6dff;
+      color: white;
+      &:hover {
+        color: white;
+      }
+    }
+    button {
+      width: 19rem;
+      height: 49px;
+      border: none;
+      font-size: 14px;
+      font-weight: 500;
+      border-radius: 6px;
+    }
+  }
+  .registrationInput {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    input {
+      width: 390px;
+      height: 35px;
+      border-radius: 6px;
+      padding-left: 20px;
+      font-size: 14px;
+      border: none;
+      outline: none;
+      font-family: "inter";
+      font-weight: 600;
+    }
+    ::placeholder {
+      font-size: 14px;
+
+      font-weight: 500;
+      color: #aaaaaa;
+    }
+  }
+  .Registration {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    button {
+      width: 280px;
+      height: 45px;
+      border-radius: 30px;
+      color: #000000;
+      font-weight: 600;
+      border: 1px solid rgba(0, 0, 65, 1);
+      font-size: 14px;
+      font-family: "inter";
+      &:hover {
+        color: #ffffff;
+        transition: 300ms;
+        background: #4a6dff;
+        cursor: pointer;
+      }
+    }
+  }
+  .btnCome {
+    b {
+      cursor: pointer;
+      transition: 400ms;
+      &:hover {
+        color: red;
+      }
+    }
+  }
+  .registrationBtnGoogle {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  .registrationIconsGoogle {
+    font-size: 20px;
+    position: absolute;
+    left: 35px;
+    top: 12px;
+  }
+  .inputApplicant {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .inputPassword {
+    position: relative;
+  }
+  .iconHide {
+    position: absolute;
+    right: 30px;
+    top: 5px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #aaaaaa;
+  }
+  .iconEmp {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+    cursor: pointer;
+    font-size: 25px;
+    color: #aaaaaa;
+  }
+  .passwordIcon {
+    display: flex;
+    position: relative;
+  }
+}

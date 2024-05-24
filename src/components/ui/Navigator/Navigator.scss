@@ -1,0 +1,51 @@
+.menuEmployer{
+  width: 100%;
+  padding-top: 25px;
+}
+.count{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 65%;
+  padding: 4px;
+  border-radius: 30px;
+  border: 0.2px;
+  font-size: 11px;
+  background: rgba(221, 221, 221, 1);
+}
+.count--active{
+  font-weight: 500;
+  color: rgba(74, 109, 255, 1);
+}
+.employerTopMenu {
+  display: flex;
+  box-shadow: 0px 0.2rem 0.6rem 0px rgba(0, 0, 0, 0.2);
+  border-radius: 1.5rem;
+  height: 6.5rem;
+  column-gap: 2rem;
+  padding: 3rem 2rem 0 2rem;
+
+  &__menuItem {
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+
+    &--active {
+      font-weight: 600;
+      color: rgba(74, 109, 255, 1);
+
+      &::after {
+        position: absolute;
+        top: 3.3rem;
+        left: -2rem;
+        content: '';
+        height: 0.3rem;
+        width: 100%;
+        background-color: #4A6DFF;
+        border-radius: 10rem;
+        margin: 0 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.Button {
+  padding: 6px 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.blue_btn {
+  border: none;
+  background: var(--bg-color-blue);
+  color: var(--prymary-color);
+  outline: none;
+}
+
+.gray_btn {
+  background: var(--bg-color-gray);
+  color: var(--text-color-black-btn);
+  border: 1px solid #DDDDDD;
+}
+
+.clear_btn {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+
+.square_btn {
+  border-radius: 10px;
+  border: none;
+  background: rgb(236, 239, 250);
+  padding: 10px 65px;
+  color: rgba(74, 109, 255, 1);
+}
+.size_button_medium {
+  padding: 0 0;
+  width: 419px;
+  height: 59px;
+}
+
+.clear_btn {
+  background: none;
+  color: black;
+  border: 1px solid black;
+}
+.btn_close{
+  border: 1px solid rgba(240, 55, 55, 1);
+  color: rgba(240, 55, 55, 1);
+}
+.btn_open{
+  border: 1px solid rgba(240, 55, 55, 1);
+  color: rgba(240, 55, 55, 1);
+}
+.btn_archive{
+  border: 1px solid rgba(240, 55, 55, 1);
+  color: rgba(240, 55, 55, 1);
+}
+
+
+.disabled {
+  opacity: 0.5;
+}
+
+
+

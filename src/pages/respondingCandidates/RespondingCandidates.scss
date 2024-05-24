@@ -1,0 +1,220 @@
+.candidatesVacancies {
+  .filterCandidatesResponding {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .candidatesVacanciesCont {
+    display: flex;
+    gap: 10px;
+    border-radius: 20px;
+    width: 1250px;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(231, 231, 231, 1);
+    align-items: center;
+
+    li {
+      list-style: none;
+      font-size: 14px;
+      font-family: 'inter';
+      color: rgba(194, 194, 194, 1);
+    }
+    .position {
+      width: 150px;
+
+      height: 85px;
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: center;
+      padding-left: 20px;
+      .positionUser {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 200px;
+      }
+    }
+    span {
+      font-size: 13px;
+      color: #000000;
+      font-family: 'inter';
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      height: 40px;
+    }
+  }
+  .btnStatusCandidates {
+    display: flex;
+    .btnDynamic {
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 200px;
+      height: 35px;
+      font-family: 'inter';
+      background-color: white;
+      color: #0088ff;
+      border: 1px solid #0088ff;
+      span {
+        color: #0088ff;
+      }
+    }
+    .btnDynamicStatus {
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 180px;
+      height: 35px;
+      font-family: 'inter';
+      background-color: white;
+      color: #f9ab00;
+      border: 1px solid #f9ab00;
+      span {
+        color: #f9ab00;
+      }
+    }
+    .btnDynamicReject {
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 150px;
+      height: 35px;
+      font-family: 'inter';
+      background-color: white;
+      color: #f03737;
+      border: 1px solid #f03737;
+      span {
+        color: #f03737;
+      }
+    }
+    .btnDynamicAccept {
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 150px;
+      height: 35px;
+      font-family: 'inter';
+      background-color: white;
+      color: #54bd95;
+      border: 1px solid #54bd95;
+      span {
+        color: #54bd95;
+      }
+    }
+  }
+  .status {
+    display: flex;
+    gap: 10px;
+
+    .btnCandidatesVacanciesAccept {
+      font-size: 13px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0px;
+      width: 110px;
+      height: 35px;
+      font-family: 'inter';
+      background-color: green;
+      color: white;
+      border: none;
+      span {
+        font-size: 25px;
+        color: white;
+      }
+    }
+    .btnCandidatesVacanciesReject {
+      font-size: 13px;
+      font-family: 'inter';
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 120px;
+      height: 35px;
+      color: white;
+      background-color: red;
+      border: none;
+      span {
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+  .status {
+    position: relative;
+    ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      position: absolute;
+      top: 50px;
+      left: 30px;
+
+      width: 220px;
+      height: 80px;
+      background-color: #ffffff;
+      border: 1px solid #b5b7c066;
+      border-radius: 6px;
+
+      li {
+        font-size: 14px;
+        color: #000000;
+        font-weight: 600;
+        cursor: pointer;
+        transition: 400ms;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+}
+.menuEmployer {
+  margin: 0 auto;
+  width: 125rem;
+}
+.cardCandidates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.btnStatusUser {
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px;
+  width: 160px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12rem;
+  margin-left: 4rem;
+  background: white;
+  z-index: 18;
+  border-radius: 20px;
+
+  span {
+    cursor: pointer;
+    transition: 400ms;
+    font-family: 'inter';
+    &:hover {
+      color: red;
+    }
+  }
+}
+.none{
+ display: none;
+}

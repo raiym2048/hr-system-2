@@ -1,0 +1,77 @@
+.modalColor {
+  .modalControl {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba($color: #777474, $alpha: 0.5);
+    z-index: 10;
+  }
+  .modalPopup {
+    span {
+      z-index: 12;
+      left: 22vh;
+      top: 2vh;
+      position: absolute;
+      cursor: pointer;
+    }
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    .popup {
+      h2 {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-left: 10px;
+      }
+      p {
+        font-size: 14px;
+        margin-left: 10px;
+      }
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      position: absolute;
+      z-index: 11;
+      color: #0f0e0ee5;
+      width: 420px;
+      border: 1px solid black;
+      border-radius: 20px;
+      height: 200px;
+      background: white;
+      gap: 20px;
+      .btnPopup {
+        display: flex;
+        justify-content: flex-end;
+        gap: 20px;
+        margin-top: 20px;
+        margin-right: 20px;
+
+        .btnReject {
+          width: 150px;
+          height: 40px;
+          border-radius: 40px;
+          border: none;
+          background: red;
+          color: white;
+          font-family: "inter";
+          font-weight: 600;
+          cursor: pointer;
+        }
+        .btnCancel {
+          width: 100px;
+          height: 40px;
+          border-radius: 40px;
+          border: 1px solid #bdb9b9;
+          background: white;
+          color: #bdb9b9;
+          font-family: "inter";
+          font-weight: 600;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,79 @@
+.AdminVacancy{
+
+}
+.admin_vacancy {
+  &__header {
+    display: flex;
+    margin: 50px 0px 20px 0px;
+  }
+
+  &__search {
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(231, 231, 231, 1);
+    border-radius: 10px;
+    margin-right: 20px;
+    background: rgba(239, 239, 239, 0.4);
+  }
+
+  &__select {
+    padding: 8px;
+    margin-right: 20px;
+    background: rgba(239, 239, 239, 0.4);
+    border: 1px solid rgba(231, 231, 231, 1);
+
+    select {
+      color: rgba(0, 0, 0, 1);
+    }
+
+  }
+
+  &__input {
+    font-size: 26px;
+    width: 90%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input {
+      color: black;
+      background: transparent;
+    }
+  }
+
+  &__btns {
+    display: flex;
+  }
+
+  &__btn {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid rgba(231, 231, 231, 1);
+    background: rgba(239, 239, 239, 0.4);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 400;
+    margin-right: 20px;
+    &:hover{
+      background: rgba(239, 239, 239, 1);
+      border: 1px solid black;
+    }
+  }
+
+  &__btnreset {
+    border: 1px solid rgba(74, 109, 255, 0.4);
+    padding: 10px 15px;
+    font-weight: 400;
+    &:hover{
+      background: rgba(74, 109, 255, 1);
+      border: 1px solid black;
+      color: white;
+    }
+  }
+}
+
+

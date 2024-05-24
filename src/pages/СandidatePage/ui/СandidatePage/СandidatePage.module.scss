@@ -1,0 +1,28 @@
+.Сandidate {
+  display: flex;
+  background: rgb(255, 255, 255);
+}
+
+.candidate_sideBar {
+  width: 30%;
+}
+
+.candidate_Content {
+  width: 70%;
+}
+
+.candidate_card {
+  display: flex;
+  flex-wrap: wrap;
+}
+.canditate_text{
+  margin: 300px  0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pagination_candidate {
+
+}
+

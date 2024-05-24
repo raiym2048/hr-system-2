@@ -1,0 +1,221 @@
+.contentAllVacancies {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: auto;
+  justify-content: center;
+
+  .menuEmployer {
+    width: 1200px;
+    margin: 0px auto;
+  }
+
+  .allVacanciesCont {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 140rem;
+    height: 90px;
+    margin: 0 auto;
+    background-color: rgba(231, 231, 231, 1);
+    .position {
+      width: auto;
+      height: 85px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      justify-content: center;
+      padding-left: 20px;
+      .positionUser {
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 200px;
+      }
+
+      .borderContMenu {
+        position: relative;
+        .close {
+          display: none;
+          border: 1px solid red;
+        }
+        .openBtn {
+          position: absolute;
+          background-color: rgb(228, 218, 218);
+          width: 130px;
+          height: 120px;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          top: 23px;
+          left: -16vh;
+          align-items: center;
+          border-radius: 10px;
+          right: 20px;
+          z-index: 10;
+          padding-top: 10px;
+          font-family: 'inter';
+          li {
+            color: black;
+            font-family: "inter";
+            cursor: pointer;
+            transition: 400ms;
+            &:hover {
+              color: red;
+            }
+          }
+        }
+      }
+      .borderVacanciesMenu {
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 24px;
+        top: -19px;
+        left: -25px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      .btnVacancies {
+        width: 100px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgba(14, 181, 141, 1);
+        color: rgba(14, 181, 141, 1);
+        font-family: "inter";
+        font-size: 14px;
+      }
+      span {
+        font-size: 13px;
+        color: #000000;
+        font-family: "inter";
+        font-weight: 500;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .borderVacancies {
+        cursor: pointer;
+        width: 70px;
+        height: 20px;
+        background-color: rgba(46, 185, 255, 0.05);
+        display: flex;
+        justify-content: center;
+        border-radius: 10px;
+        color: rgba(46, 185, 255, 1);
+        span {
+          color: rgba(46, 185, 255, 1);
+        }
+      }
+      li {
+        list-style: none;
+        font-size: 14px;
+        font-family: "inter";
+        color: rgba(194, 194, 194, 1);
+      }
+    }
+    .status {
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 10px;
+
+    }
+  }
+}
+.allVacanciesItems {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  height: 63vh;
+
+}
+.paginationBtnAllVacancies {
+  display: flex;
+  justify-content: flex-end;
+  width: 140rem;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  gap: 10px;
+  align-items: center;
+
+  button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid rgba(231, 231, 231, 1);
+    font-family: "inter";
+  }
+}
+.vacanciesNo {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 40vh;
+  left: 25vh;
+  width: 140rem;
+  margin: 0 auto;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+
+  p {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .btnVacanciesNo {
+    width: 180px;
+    height: 50px;
+    border: none;
+    background-color: rgba(74, 109, 255, 1);
+    color: white;
+    position: relative;
+    padding-left: 40px;
+    font-size: 18px;
+    span {
+      position: absolute;
+      left: 15px;
+      font-size: 25px;
+    }
+  }
+}
+.spinner {
+  width: 56px;
+  height: 56px;
+  display: grid;
+  border: 4px solid #0000;
+  border-radius: 50%;
+  border-right-color: #004dff;
+  animation: spinner-a4dj62 1s infinite linear;
+}
+
+.spinner::before,
+.spinner::after {
+  content: "";
+  grid-area: 1/1;
+  margin: 2px;
+  border: inherit;
+  border-radius: 50%;
+  animation: spinner-a4dj62 2s infinite;
+}
+
+.spinner::after {
+  margin: 8px;
+  animation-duration: 3s;
+}
+
+@keyframes spinner-a4dj62 {
+  100% {
+    transform: rotate(1turn);
+  }
+}

@@ -1,0 +1,45 @@
+
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid rgba(231, 231, 231, 1);
+  border-radius: 30px;
+}
+.tableHeader{
+  border: 1px solid rgba(231, 231, 231, 1);
+  border-radius: 30px;
+}
+
+.text{
+  text-align: start;
+}
+.table_item{
+  background-color:rgba(249, 249, 249, 0.3);
+  border: 1px solid rgba(231, 231, 231, 1);
+  :hover{
+    background-color:rgba(249, 249, 249, 1);
+}
+  th{
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+  }
+}
+.table_Checkbox{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.table_icons{
+  display: flex;
+  justify-content: space-around;
+}
+
+th {
+  color: white;
+  text-align: left;
+  padding: 8px 4px;
+}
+
+

@@ -1,0 +1,46 @@
+.JobSeekerVacancySelector{
+}
+.candidate_selector__box{
+  margin-top: 30px;
+}
+
+.candidate_text{
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.SearchCandidate{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  span{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+}
+
+.SearchInput{
+  display: flex;
+  align-items: center;
+}
+.candidate_selector__btn{
+  display: flex;
+  justify-content: end;
+  margin-top: 45px;
+  button{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid rgba(169, 171, 173, 0.4);
+    color: rgba(169, 171, 173, 1);
+    &:hover{
+      background: #007bff;
+      border: 1px solid rgba(169, 171, 173, 1);
+      color: white;
+    }
+  }
+}

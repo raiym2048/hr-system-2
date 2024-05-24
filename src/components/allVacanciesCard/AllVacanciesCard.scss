@@ -1,0 +1,26 @@
+.loaderVacancies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.btn_close {
+  border: 1px solid rgba(240, 55, 55, 1);
+  color: rgba(240, 55, 55, 1);
+  font-family: "inter";
+  font-size: 14px;
+  
+}
+.btn_open {
+  border: 1px solid rgba(14, 181, 141, 1);
+  font-family: "inter";
+  font-size: 14px;
+  color: rgba(14, 181, 141, 1);
+}
+.btn_archive {
+  border: 1px solid rgba(170, 170, 170, 1);
+  font-family: "inter";
+  font-size: 14px;
+  color: rgba(170, 170, 170, 1);
+}

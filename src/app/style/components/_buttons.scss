@@ -1,0 +1,96 @@
+.button {
+  border-radius: 2rem;
+  border: 0.1rem solid transparent;
+  height: 4rem;
+  padding: 0 2.5rem;
+  font-family: Inter;
+  font-weight: 500;
+  white-space: nowrap;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &--contentApart {
+    gap: 1rem;
+  }
+
+  &--fullWidth {
+    width: 100%;
+    height: 6rem;
+    border-radius: 3rem;
+  }
+
+  &__arrow {
+    position: relative;
+    margin-left: 1.4rem;
+    top: -0.1rem;
+  }
+
+  &--danger {
+    background-color: #CE0202;
+    color: white;
+  }
+
+  &--dangerLighter {
+    background-color: hsla(0, 86%, 58%, 1);
+    color: white;
+  }
+
+  &--happy {
+    background-color: hsla(157, 44%, 54%, 1);
+    color: white;
+  }
+
+  &--cancel {
+    border-color: #A9ABAD;
+    color: #A9ABAD;
+    background-color: white;
+  }
+
+  &--blue {
+    border-color: #4A6DFF;
+    color: #4A6DFF;
+    background: rgba(74, 109, 255, 0.05);
+  }
+
+  &--green {
+    border-color: #0EB58D;
+    color: #0EB58D;
+    background: rgba(14, 181, 141, 0.05);
+  }
+
+  &--submit {
+    color: white;
+    background: hsla(228, 100%, 65%, 1);
+  }
+
+  &--disabled {
+    border-color: #A9ABAD;
+    color: #A9ABAD;
+    background-color: white;
+    cursor: auto;
+  }
+
+  &--info {
+    cursor: auto;
+  }
+
+}
+
+.buttonClean {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.buttonChosen {
+  width: 4.5rem;
+  aspect-ratio: 1 / 1;
+  cursor: pointer;
+
+  &--not {
+    filter: grayscale(1) opacity(0.5);;
+  }
+}

@@ -1,0 +1,75 @@
+.popupModal-content {  
+  background: rgb(255, 255, 255);  
+  width: 50.4rem;
+  border: 1px solid #F6F6F6;
+  border-radius: 1rem;
+  padding: 4.5rem 2.5rem;
+  position: relative;
+}
+
+.popupModal-overlay {  
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.popupTooltip-content {  
+  background: rgb(255, 255, 255);  
+  width: 15.2rem;
+  border: 1px solid rgba(212, 212, 212, 1);
+  border-radius: 0.5rem;
+  position: absolute;
+  padding: 0.5rem 0.8rem;
+}
+
+.popupTooltip-overlay {  
+  background: transparent;
+}
+
+.popupTooltip {
+
+  &__choiceItem {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+  }
+}
+
+.popupModal {
+
+  &__bodyOfText {
+    margin-top: 2rem;
+  }
+
+  &__buttonsGroup {
+    float: right;
+    display: flex;
+    column-gap: 1rem;
+    margin-top: 4rem;
+  }
+
+  &__cross {
+    position: absolute;
+    top: 2.4rem;
+    right: 1.8rem;
+  }
+
+  &__form {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  &__button {
+    margin-top: 2rem;
+  }
+
+  &__choiceItem {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    font-family: Inter;
+  }
+}
+
+

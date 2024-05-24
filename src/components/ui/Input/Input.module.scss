@@ -1,0 +1,22 @@
+.Input {
+  width: var(--width-input);
+  color: var(--text-color-black-btn);
+}
+
+.input {
+  width: 100%;
+  background: white;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+isValid {
+    border: 2px solid red;
+    color: red;
+}
+.error_message {
+  width: 100%;
+  color: red;
+  font-size: 12px;
+  margin-top: 4px;
+}

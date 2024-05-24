@@ -1,0 +1,53 @@
+.radioButtons {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  font-size: 2rem;
+
+  & label {
+    cursor: pointer;
+  }
+
+  &__row {
+    display: flex;
+    column-gap: 1rem;
+    position: relative;
+
+    & input {
+      position: absolute;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    & input:hover ~ .radioButtons__customRadio {
+      border: 0.15rem solid #9ed0ff;    
+    }
+
+    & input:checked ~ .radioButtons__customRadio:after {
+      position: absolute;
+      content: '';
+      background-color: #2196F3;
+      display: block;
+    }
+  }
+
+  &__customRadio {
+    // position: absolute;
+    top: 0;
+    left: 0;
+    height: 2.5rem;
+    width: 2.5rem;
+    // background-color: #eee;
+    border-radius: 50%;
+    border: 0.15rem solid #dddddd;  
+
+    &:after {
+      top: 0.405rem;
+      left: 0.405rem;
+      width: 1.7rem;
+      height: 1.7rem;
+      border-radius: 50%;
+      background: white;
+    }
+  }
+}

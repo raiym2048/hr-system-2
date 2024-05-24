@@ -1,0 +1,102 @@
+.navigationMenu {
+  padding: 1px;
+  margin: 3rem 5%;
+  box-shadow: 0px 0.2rem 0.6rem 0px #00000033;
+  border-radius: 1.5rem;
+  position: relative; 
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 140rem;
+  width: 140rem;
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  &__circle {
+    width: 140rem;
+    height: 7rem;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(0deg, hsla(209, 100%, 87%, 0) 0%, rgb(129, 194, 255) 100%);
+  }
+
+  &__innerFrame {
+    background-color: white;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    border-radius: 1.5rem;
+    height: 6.5rem;
+    column-gap: 2rem;
+    padding: 3rem 2rem 0 2rem;
+
+    &:hover > .navigationMenu__circle {
+      animation: rotation 400ms linear 3 both;
+    }
+  }
+
+  &__menuItem {
+    position: relative;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    cursor: pointer;
+    color: black;
+    // color: rgba(74, 109, 255, 1);
+    // font-weight: 600;
+
+    &--active {
+      font-weight: 600;
+      color: rgba(74, 109, 255, 1);
+
+      &::after {
+        position: absolute;
+        top: 3.3rem;
+        left: -2rem;  
+        content: '';
+        height: 0.3rem;
+        width: 100%;
+        background-color: #4A6DFF;
+        border-radius: 10rem;
+        margin: 0 20px;
+      }
+    }
+  }
+}
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg) scale(1, 1);
+  }
+  5% {
+    transform: rotate(45deg) scale(1, 16.7);
+  }  
+  40% { // right
+    transform: rotate(90deg) scale(1, 21);
+  }  
+  45% {
+    transform: rotate(135deg) scale(1, 16.7);
+  }  
+  50% {
+    transform: rotate(180deg) scale(1, 1);
+  }
+  55% {
+    transform: rotate(225deg) scale(1, 16.7);
+  }  
+  90% {
+    transform: rotate(270deg) scale(1, 21);
+  }
+  95% {
+    transform: rotate(315deg) scale(1, 16.7);
+  }  
+  100% {
+    transform: rotate(360deg) scale(1, 1);
+  }
+}

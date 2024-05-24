@@ -1,0 +1,82 @@
+.Text {
+  text-align: left;
+  color: black;
+}
+
+.list {
+  margin-left: 30px;
+
+  &_item {
+    margin-top: 10px;
+  }
+}
+
+
+.text_job-seeker_vacancy {
+  margin-bottom: 15px;
+  font-weight: 400;
+  text-align: start;
+  .text {
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(194, 194, 194, 1);
+    text-transform: uppercase;
+  }
+  .title {
+    font-size: 17px;
+  }
+}
+
+.task_name_job {
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-align: center;
+  white-space: nowrap;
+  .text {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  .title {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(74, 109, 255, 1);
+  }
+}
+
+.main_title {
+  padding: 40px 0;
+
+  .text {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+
+  .title {
+    font-size: 18px;
+    font-weight: 400;
+  }
+}
+
+.category_text {
+  font-weight: 400;
+
+  .text {
+    font-size: 18px;
+  }
+
+  .title {
+    font-size: 15px;
+    color: rgba(92, 91, 91, 1);
+  }
+}
+.center_text{
+  font-size: 24px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

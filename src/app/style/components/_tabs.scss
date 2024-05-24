@@ -1,0 +1,43 @@
+.tabs {
+  display: flex;
+  gap: 2.7rem;
+
+  &__line {
+    border: 1px solid #EEE;
+    margin-top: 0.5rem;
+  }
+
+  &__menuItem {
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 2.4rem;
+    color: hsla(0, 0%, 47%, 1);
+    cursor: pointer;
+
+    &--active {
+      color: hsla(228, 100%, 65%, 1);
+
+      &::after {
+        animation: line 300ms cubic-bezier(.6,.04,.29,1.6) forwards;
+        position: absolute;
+        top: 2.8rem;
+        left: -2rem;  
+        content: '';
+        height: 0.3rem;
+        width: 100%;
+        background-color: #4A6DFF;
+        border-radius: 10rem;
+        margin: 0 20px;
+      }
+    }
+  }
+}
+@keyframes line {
+  from {    
+    transform: scaleX(0)
+  }
+  to {    
+    transform: scaleX(100%)
+  }
+}

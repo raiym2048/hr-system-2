@@ -1,0 +1,36 @@
+.ApplicantRespondingVacancyFilter {
+  width: 60%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.responding_filter {
+  &__search {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(231, 231, 231, 1);
+    border-radius: 10px;
+    background: rgba(239, 239, 239, 0.4);
+  }
+
+  &__input {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    input {
+      background: none;
+    }
+
+  }
+
+  &__select {
+    background: rgba(239, 239, 239, 0.4);
+  }
+}

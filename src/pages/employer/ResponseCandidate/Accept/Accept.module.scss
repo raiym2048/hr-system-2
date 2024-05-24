@@ -1,0 +1,137 @@
+.accept_btns {
+  width: 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+}
+
+.check {
+  padding: 6px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #54BD95;
+  color: white;
+}
+
+.close {
+  padding: 6px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #F03737;
+  color: white;
+}
+
+
+.status_text {
+  margin-bottom: 15px;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(194, 194, 194, 1);
+  text-transform: uppercase;
+}
+
+.accepted {
+  background: #54BD950D;
+  border: 1px solid #54BD95;
+  color: #54BD95;
+}
+
+.rejected {
+  background: #F037370D;
+  border: 1px solid #F03737;
+  color: #F03737;
+}
+
+.under_consideration {
+  background: #0088FF0D;
+  border: 1px solid #0088FF;
+  color: #0088FF;
+}
+
+.offer {
+  background: #F9AB000D;
+  border: 1px solid #F9AB00;
+  color: #F9AB00;
+}
+
+.status {
+  width: 12%;
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  position: relative;
+}
+
+
+.modal {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 160px;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(181, 183, 192, 0.4);
+  border-radius: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalOption {
+  cursor: pointer;
+  padding: 5px 10px;
+  text-align: start;
+  font-size: 14px;
+
+  &:nth-child(2) {
+    color: red;
+  }
+}
+
+.modalOption:last-child {
+  border-bottom: none;
+}
+
+.modal_content {
+  width: 500px;
+
+  &__text {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  &__title {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  &__btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+}
+
+.btns {
+  &__reject {
+    background: #CE0202;
+    color: white;
+    border: none;
+  }
+
+  &__accept {
+    background: #26AF60;
+    color: white;
+    border: none;
+  }
+
+  &__cancellation {
+    margin-left: 15px;
+    border: 1px solid #A9ABAD;
+    background: #FFFFFF;
+    color: #A9ABAD;
+  }
+}

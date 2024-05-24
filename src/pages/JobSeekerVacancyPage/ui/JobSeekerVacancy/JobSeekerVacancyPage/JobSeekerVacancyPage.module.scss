@@ -1,0 +1,29 @@
+.JobSeekerVacancyPage{
+  display: flex;
+  justify-content: space-between;
+}
+.JobSeekerVacancyPage_selector{
+  width: 25%;
+  padding-right: 30px;
+}
+.JobSeekerVacancyPage_content{
+  width: 75%;
+}
+.JobSeekerVacancyPageList{
+  height: 600px;
+  padding-top: 20px;
+  overflow: auto;
+  direction:rtl;
+  &::-webkit-scrollbar {
+    width: 8px;
+    background: rgba(244, 244, 244, 1);
+    border: 1px rgba(244, 244, 244, 1);
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 0;
+    background: rgba(219, 219, 219, 1);
+  }
+  div{
+    direction:ltr;
+  }
+}
